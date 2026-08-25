@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Tavola | Restaurante Italiano</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            La <span>Tavola</span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home">Início</a>
+            <a href="#historia">Nossa História</a>
+            <a href="#menu">Menu</a>
+            <a href="#chef">Chef</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#reserva">Reservas</a>
+        </nav>
+
+        <button class="menu-mobile" id="menuMobile">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="subtitle">CULINÁRIA ITALIANA AUTÊNTICA</p>
+
+                <h1>Onde cada prato<br>tem uma história.</h1>
+
+                <p class="hero-text">
+                    Uma experiência gastronômica inspirada nas tradições,
+                    nos sabores e nas histórias que atravessaram gerações.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#reserva" class="btn-primary">
+                        Reservar uma mesa
+                    </a>
+
+                    <a href="#menu" class="btn-secondary">
+                        Conheça nosso menu
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-down">
+                <span>ROLE PARA DESCOBRIR</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+
+        </section>
+
+
+        <!-- HISTÓRIA -->
+
+        <section class="about section" id="historia">
+
+            <div class="about-image reveal">
+
+                <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1000&q=80"
+                    alt="Interior do restaurante">
+
+            </div>
+
+            <div class="about-content reveal">
+
+                <p class="section-label">
+                    LA NOSTRA STORIA
+                </p>
+
+                <h2>Uma mesa, muitas histórias.</h2>
+
+                <div class="gold-line"></div>
+
+                <p>
+                    O La Tavola nasceu da paixão por reunir pessoas em volta
+                    de uma mesa. Inspirado nas pequenas trattorias italianas,
+                    nosso restaurante celebra receitas tradicionais com uma
+                    interpretação contemporânea.
+                </p>
+
+                <p>
+                    Cada ingrediente é escolhido com cuidado e cada prato é
+                    preparado para criar uma experiência que vai além do sabor.
+                    Aqui, uma refeição é uma lembrança sendo criada.
+                </p>
+
+                <a href="#menu" class="text-link">
+                    Descubra nossos sabores
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENU -->
+
+        <section class="menu section" id="menu">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    IL NOSTRO MENU
+                </p>
+
+                <h2>Sabores que contam histórias</h2>
+
+                <p>
+                    Explore nossa seleção de pratos inspirados
+                    nas diferentes regiões da Itália.
+                </p>
+
+            </div>
+
+
+            <!-- FILTROS -->
+
+            <div class="menu-filters">
+
+                <button class="filter-btn active" data-filter="todos">
+                    Todos
+                </button>
+
+                <button class="filter-btn" data-filter="massa">
+                    Massas
+                </button>
+
+                <button class="filter-btn" data-filter="pizza">
+                    Pizzas
+                </button>
+
+                <button class="filter-btn" data-filter="risoto">
+                    Risotos
+                </button>
+
+                <button class="filter-btn" data-filter="vinho">
+                    Vinhos
+                </button>
+
+                <button class="filter-btn" data-filter="sobremesa">
+                    Sobremesas
+                </button>
+
+            </div>
+
+
+            <div class="menu-grid" id="menuGrid"></div>
+
+        </section>
+
+
+        <!-- EXPERIÊNCIA -->
+
+        <section class="experience">
+
+            <div class="experience-content">
+
+                <p class="section-label">
+                    A HISTÓRIA À MESA
+                </p>
+
+                <h2>Mais do que uma refeição.</h2>
+
+                <p>
+                    Cada prato do nosso menu carrega uma inspiração.
+                    Descubra as histórias, tradições e memórias por trás
+                    de cada receita.
+                </p>
+
+                <a href="#menu" class="btn-primary">
+                    Descobrir os pratos
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHEF -->
+
+        <section class="chef section" id="chef">
+
+            <div class="chef-content reveal">
+
+                <p class="section-label">
+                    IL NOSTRO CHEF
+                </p>
+
+                <h2>Chef Lorenzo Bianchi</h2>
+
+                <div class="gold-line"></div>
+
+                <p>
+                    Com uma trajetória dedicada à gastronomia italiana,
+                    Lorenzo acredita que a cozinha é uma forma de preservar
+                    memórias e criar novas histórias.
+                </p>
+
+                <p>
+                    Sua cozinha combina técnicas tradicionais, ingredientes
+                    selecionados e apresentações contemporâneas.
+                </p>
+
+                <div class="chef-signature">
+                    Lorenzo Bianchi
+                </div>
+
+            </div>
+
+            <div class="chef-image reveal">
+
+                <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1000&q=80"
+                    alt="Chef preparando um prato">
+
+            </div>
+
+        </section>
+
+
+        <!-- GALERIA -->
+
+        <section class="gallery section" id="galeria">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    GALLERIA
+                </p>
+
+                <h2>Um olhar sobre nossa cozinha</h2>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80"
+                        alt="Massa italiana">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80"
+                        alt="Pizza italiana">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80"
+                        alt="Prato italiano">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=800&q=80"
+                        alt="Risoto">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=80"
+                        alt="Sobremesa">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80"
+                        alt="Vinho">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESERVA -->
+
+        <section class="reservation section" id="reserva">
+
+            <div class="reservation-info">
+
+                <p class="section-label">
+                    PRENOTAZIONE
+                </p>
+
+                <h2>Reserve sua experiência.</h2>
+
+                <p>
+                    Escolha a data e o horário. Nossa equipe estará pronta
+                    para receber você no La Tavola.
+                </p>
+
+                <div class="contact-info">
+
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            Rua da Gastronomia, 125<br>
+                            São Paulo - SP
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-clock"></i>
+
+                        <span>
+                            Terça a Domingo<br>
+                            12h às 23h
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+
+                        <span>
+                            (11) 99999-9999
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form class="reservation-form" id="reservationForm">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Nome completo
+                    </label>
+
+                    <input type="text" id="name" placeholder="Seu nome">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input type="email" id="email" placeholder="seuemail@email.com">
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="date">
+                            Data
+                        </label>
+
+                        <input type="date" id="date">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="time">
+                            Horário
+                        </label>
+
+                        <select id="time">
+
+                            <option value="">
+                                Selecione
+                            </option>
+
+                            <option>12:00</option>
+                            <option>13:00</option>
+                            <option>14:00</option>
+                            <option>19:00</option>
+                            <option>20:00</option>
+                            <option>21:00</option>
+                            <option>22:00</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="guests">
+                        Número de pessoas
+                    </label>
+
+                    <select id="guests">
+
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option>1 pessoa</option>
+                        <option>2 pessoas</option>
+                        <option>3 pessoas</option>
+                        <option>4 pessoas</option>
+                        <option>5 pessoas</option>
+                        <option>6 pessoas</option>
+                        <option>7+ pessoas</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Observações
+                    </label>
+
+                    <textarea id="message" placeholder="Alguma informação importante?"></textarea>
+
+                </div>
+
+
+                <button type="submit" class="btn-primary reservation-btn">
+
+                    Confirmar reserva
+
+                </button>
+
+                <p class="form-message" id="formMessage"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            La <span>Tavola</span>
+        </div>
+
+        <p>
+            Sabores, tradições e histórias à mesa.
+        </p>
+
+        <div class="social-links">
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 La Tavola. Projeto demonstrativo.
+        </p>
+
+    </footer>
+
+
+    <!-- MODAL HISTÓRIA DO PRATO -->
+
+    <div class="modal" id="dishModal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeDishModal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-image">
+
+                <img id="modalDishImage" src="" alt="">
+
+            </div>
+
+            <div class="modal-body">
+
+                <p class="section-label">
+                    A HISTÓRIA DO PRATO
+                </p>
+
+                <h2 id="modalDishTitle"></h2>
+
+                <div class="gold-line"></div>
+
+                <p id="modalDishDescription"></p>
+
+                <h3>A inspiração</h3>
+
+                <p id="modalDishStory"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- MODAL GALERIA -->
+
+    <div class="image-modal" id="imageModal">
+
+        <button id="closeImageModal">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <img id="expandedImage" src="" alt="">
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
