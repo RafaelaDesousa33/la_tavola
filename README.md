@@ -4,6 +4,8 @@ Projeto de um site para um restaurante, desenvolvido com foco em uma interface m
 
 O site apresenta informações sobre o restaurante, pratos do cardápio e seções pensadas para proporcionar uma boa experiência ao usuário.
 
+<img src="la_tavola.png" alt="imagem do projeto">
+
 ## Tecnologias utilizadas
 
 * HTML5
